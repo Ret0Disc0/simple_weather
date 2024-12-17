@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Color+Emoji&display=swap');
+
+@font-face {
+    font-family: Monocraft;
+    src: url(/assets/font/Monocraft.otf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    background-color: rgb(61, 52, 52);
+}
+
+.widjet {
+    font-family: "jost", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.mono{
+    display: inline-block; /* Устанавливает элементы в одну строку */
+    font-family: Jost;
+    margin-right: 3px;
+    margin-left: 0px;
+}
